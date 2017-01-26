@@ -1,6 +1,5 @@
 // ==============================================================================
 // | Daniel Spence
-// | Arizona Holdem Project 2
 // | Contains the all important player class that holds the players money,
 // | the players number and includes various functionality as finding the
 // | player's best hand

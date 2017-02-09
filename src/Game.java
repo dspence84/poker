@@ -9,12 +9,12 @@ public class Game {
 	
 	public static void main(String[] args) {
 		List<Player> players = new ArrayList<Player>();			// a list of players in the game
-		List<Player> winners;									// the winners of the game
-		PokerHand dealer;										// the dealers hand of cards
-		String input;											// input from the console
-		Deck deck;												// the deck of cards to use
-		final double playerStartingCash = 100.0; 				// the amount of starting cash for each player
-		final double betSize = 2.00;							// the bet size for each player
+		List<Player> winners;						// the winners of the game
+		PokerHand dealer;						// the dealers hand of cards
+		String input;							// input from the console
+		Deck deck;							// the deck of cards to use
+		final double playerStartingCash = 100.0; 			// the amount of starting cash for each player
+		final double betSize = 2.00;					// the bet size for each player
 		
 		// build the deck
 		deck = new Deck();
